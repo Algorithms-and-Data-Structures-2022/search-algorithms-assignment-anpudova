@@ -4,7 +4,7 @@ namespace assignment {
 
   std::optional<int> LinearSearchIterative::Search(const std::vector<int>& arr, int search_elem) const {
 
-    for (int i = 0; i < arr.size(); i++) {
+    for (int i = 0; i < arr.size(); ++i) {
       if (search_elem == arr[i]) {
         return i;
       }
