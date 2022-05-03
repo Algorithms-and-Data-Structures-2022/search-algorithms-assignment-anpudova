@@ -31,5 +31,4 @@ namespace assignment {
     return search(arr, search_elem, index_middle + 1, stop);
   }
 }
-
   // namespace assignment

@@ -28,5 +28,4 @@ namespace assignment {
     }
     return std::nullopt;
   }
-
 }  // namespace assignment

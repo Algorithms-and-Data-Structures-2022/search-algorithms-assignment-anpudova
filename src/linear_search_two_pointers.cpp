@@ -20,5 +20,4 @@ namespace assignment {
       index_right--;
     }
   }
-
 }  // namespace assignment

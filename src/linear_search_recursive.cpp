@@ -19,5 +19,4 @@ namespace assignment {
     }
     return search(arr, search_elem, curr_index - 1);
   }
-
 }  // namespace assignment
