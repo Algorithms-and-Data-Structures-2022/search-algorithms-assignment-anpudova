@@ -9,7 +9,7 @@ namespace assignment {
     // 2. Проверяйте наличие целевого элемента по индексам.
     // 3. Обновляйте индексы пока левый не станет больше правого.
     int index_left = 0;
-    int index_right = static_cast<int>(arr.size() - 1);
+    int index_right = static_cast<int>(arr.size()) - 1;
     while (index_left <= index_right) {
       if (arr[index_left] == search_elem) {
         return index_left;

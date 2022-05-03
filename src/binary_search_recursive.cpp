@@ -27,8 +27,8 @@ namespace assignment {
       return index_middle;
     } else if (search_elem < arr[index_middle]) {
       return search(arr, search_elem, start, index_middle - 1);
-    } else {
-      return search(arr, search_elem, index_middle + 1, stop);
+    }
+    return search(arr, search_elem, index_middle + 1, stop);
     }
   }
 
