@@ -19,7 +19,7 @@ namespace assignment {
     //    2) целевой элемент найден
     // 2. Вызовите рекурсивный метод, изменив границы поиска
     //    в зависимости от неравенства между элементом посередине и целевого элемента
-    if (start > stop) {
+    if (start >= stop) {
       return std::nullopt;
     }
     int index_middle = (start + stop) / 2;
