@@ -29,7 +29,7 @@ namespace assignment {
       return search(arr, search_elem, start, index_middle - 1);
     }
     return search(arr, search_elem, index_middle + 1, stop);
-    }
   }
+}
 
-}  // namespace assignment
+  // namespace assignment
