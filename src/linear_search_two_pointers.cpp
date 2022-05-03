@@ -19,5 +19,6 @@ namespace assignment {
       index_left++;
       index_right--;
     }
+    return std::nullopt;
   }
 }  // namespace assignment
